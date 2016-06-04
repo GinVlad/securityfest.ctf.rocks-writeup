@@ -1,5 +1,5 @@
-Use uncompyle2 to decompile flux.pyc
-Then decode it in python:
+Use uncompyle2 to decompile flux.pyc <br />
+Then decode it in python: <br />
 `flag = [67,
  78,
  70,
@@ -21,8 +21,7 @@ Then decode it in python:
  38,
  112,
  39,
- 104]
-f = ""
-for x in range(len(flag)):
-	f += chr(flag[x] ^ x )
-print f`
+ 104]` <br />
+`f = ""` <br />
+`for x in range(len(flag)): f += chr(flag[x] ^ x )` <br />
+`print f` <br />
